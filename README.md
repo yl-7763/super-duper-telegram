@@ -37,5 +37,29 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## 运行截图
 ### QAnything界面
-![QAnything运行界面](/public/practice/images/qanything-demo.png)
+![QAnything运行界面]
+ <div>
+      <Image 
+        src="/图1.jpeg" 
+        width={100} 
+        height={100} 
+      />
+      {/* 若要插入根目录的图片，需要将图片移动到 public 目录 */}
+    </div>
+   <div>
+      <Image 
+        src="/图2.jpeg" 
+        width={100} 
+        height={100} 
+      />
+      {/* 若要插入根目录的图片，需要将图片移动到 public 目录 */}
+    </div>
+   <div>
+      <Image 
+        src="/图3.jpeg" 
+        width={100} 
+        height={100} 
+      />
+      {/* 若要插入根目录的图片，需要将图片移动到 public 目录 */}
+    </div>
 > 截图说明：此处展示通过API集成的知识问答界面
